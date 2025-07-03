@@ -1,0 +1,6 @@
+customtkinter
+Pillow
+
+
+
+(pip install ...)
