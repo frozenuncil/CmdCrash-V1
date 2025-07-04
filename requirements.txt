@@ -1,6 +1,7 @@
 customtkinter
 Pillow
-
+PyQt5
+PyQtWebEngine
 
 
 (pip install ...)

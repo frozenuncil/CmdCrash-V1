@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Frozen Intro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- SCREEN 1 -->
+  <div class="screen screen1 active" id="screen1">
+    <img src="logo.png" alt="Logo" class="logo" />
+  </div>
+
+  <!-- SCREEN 2 -->
+  <div class="screen screen2" id="screen2">
+    <div class="frozen-container">
+      <h2 class="made-by">Made by</h2>
+      <svg class="frozen-text" viewBox="0 0 600 100">
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">FROZEN</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- SCREEN 3 -->
+  <div class="screen screen3" id="screen3">
+    <div class="cmd-container">
+      <h1 class="cmd-text">CmdCrash V1</h1>
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Screenwechsel sauber per JS nach Zeit
+    setTimeout(() => {
+      document.getElementById("screen1").classList.remove("active");
+      document.getElementById("screen2").classList.add("active");
+    }, 3000);
+
+    setTimeout(() => {
+      document.getElementById("screen2").classList.remove("active");
+      document.getElementById("screen3").classList.add("active");
+    }, 7500);
+  </script>
+</body>
+</html>
+
+
+
+

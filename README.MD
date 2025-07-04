@@ -1,7 +1,7 @@
 # CMD Crash V1
 
 A fun, simulated "CMD Crash" tool built with Python and CustomTkinter.  
-It includes several harmless "hacking" style actions like killing svchost, spamming CMD windows, and showing fake system alerts — all wrapped in a clean, modern GUI with multiple tabs.
+It includes several harmless "hacking" style actions like killing Notepad, spamming CMD windows, and showing fake system alerts — all wrapped in a clean, modern GUI with multiple tabs.
 
 ---
 
@@ -40,6 +40,8 @@ CMD_Crash_V1/
 ## Requirements
 customtkinter
 Pillow
+PyQt5
+PyQtWebEngine
 
 
 
