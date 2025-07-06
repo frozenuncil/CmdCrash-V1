@@ -42,6 +42,7 @@ customtkinter
 Pillow
 PyQt5
 PyQtWebEngine
+psutil
 
 
 
